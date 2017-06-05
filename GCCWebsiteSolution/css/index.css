@@ -10,3 +10,23 @@
 .page-scroll {
     color: #e7d0ba;
 }
+
+
+a:link {
+    color: #e7d0ba;
+}
+
+/* visited link */
+a:visited {
+    color: #e7d0ba;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
