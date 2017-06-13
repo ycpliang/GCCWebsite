@@ -41,14 +41,26 @@ a:active {
     max-height: 50%;
 }
 
+
 #slogan{
     width: 100%;
+    max-width: 100%;
     height: 750px;
     background-image: url(/images/background.jpg);
 }
 
 #menu.navbar-default .navbar-brand {
     color: rgba(255, 255, 255, 1);
+}
+
+.inner-footer{
+    padding-top:70px;
+    padding-bottom: 20px;
+}
+
+#slogan-text{
+    padding-top: 200px;
+    color: black;
 }
 
 #menu.navbar-default {
