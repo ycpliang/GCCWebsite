@@ -162,8 +162,12 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\background1.jpg" />
     <Content Include="images\gcclogo.png" />
+    <Content Include="images\gccwaterloologo.png" />
     <Content Include="index.html" />
+    <Content Include="jscode\index.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -176,6 +180,11 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Views\about.html" />
+    <Content Include="Views\construction.html" />
+    <Content Include="Views\contact.html" />
+    <Content Include="Views\optimize.html" />
+    <Content Include="Views\sponsors.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -190,9 +199,7 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
-    <Folder Include="jscode\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

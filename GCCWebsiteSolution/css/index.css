@@ -30,3 +30,69 @@ a:hover {
 a:active {
     color: green;
 }
+
+#logo {
+    width: 296px;
+    height: 164px;
+}
+
+#logo2 {
+    max-width: 70%;
+    max-height: 50%;
+}
+
+#slogan{
+    width: 100%;
+    height: 750px;
+    background-image: url(/images/background.jpg);
+}
+
+#menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+
+#menu.navbar-default {
+    font-size: 16px;
+    background-color: rgba(148, 0, 0, 1);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(148, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(148, 0, 0, 1) 100%);
+    border-bottom-width: 0px;
+}
+
+    #menu.navbar-default .navbar-nav > li > a {
+        color: rgba(231, 208, 186, 1);
+        background-color: rgba(148, 0, 0, 1);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(148, 0, 0, 1) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(148, 0, 0, 1) 100%);
+    }
+
+        #menu.navbar-default .navbar-nav > li > a:hover,
+        #menu.navbar-default .navbar-nav > li > a:focus {
+            color: rgba(231, 208, 186, 1);
+            background-color: rgba(148, 0, 0, 1);
+        }
+
+    #menu.navbar-default .navbar-nav > .active > a,
+    #menu.navbar-default .navbar-nav > .active > a:hover,
+    #menu.navbar-default .navbar-nav > .active > a:focus {
+        color: rgba(231, 208, 186, 1);
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    #menu.navbar-default .navbar-toggle {
+        border-color: #ffffff;
+    }
+
+        #menu.navbar-default .navbar-toggle:hover,
+        #menu.navbar-default .navbar-toggle:focus {
+            background-color: #ffffff;
+        }
+
+        #menu.navbar-default .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+        }
+
+        #menu.navbar-default .navbar-toggle:hover .icon-bar,
+        #menu.navbar-default .navbar-toggle:focus .icon-bar {
+            background-color: #940000;
+        }
