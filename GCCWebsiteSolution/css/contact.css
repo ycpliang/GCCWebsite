@@ -12,11 +12,5 @@
 }
 .floated_img{
     font-size:0;
-    margin：0 auto;
-}
-.floated_img a{
-    margin:2px;
-    border:4px solid;
-    display: inline-block;
-    border-radius:10px;
+    margin：5 auto;
 }
