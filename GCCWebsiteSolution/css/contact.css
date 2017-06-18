@@ -20,9 +20,3 @@
     display: inline-block;
     border-radius:10px;
 }
-.floated_img a:hover{
-    border-color:steelblue
-}
-.floated_img img{
-    border-radius:6px;
-}
