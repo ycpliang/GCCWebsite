@@ -1,0 +1,11 @@
+﻿.gccglobal-section {
+    background-color:#2d3e50;
+    color:white;
+}
+
+.background-img {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(/images/background.jpg);
+}
+}

@@ -159,8 +159,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\contact.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\global.css" />
     <Content Include="css\index.css" />
     <Content Include="css\about.css" />
+    <Content Include="css\index2.css" />
     <Content Include="css\layouts\marketing-old-ie.css" />
     <Content Include="css\layouts\marketing.css" />
     <Content Include="css\purecss.min.css" />
