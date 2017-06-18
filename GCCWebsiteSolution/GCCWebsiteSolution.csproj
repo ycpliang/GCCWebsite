@@ -211,7 +211,7 @@
     <Content Include="images\background1.jpg" />
     <Content Include="images\gcclogo.png" />
     <Content Include="images\gccwaterloologo.png" />
-    <Content Include="images\ProfilePicture.jpg" />
+    <Content Include="images\ProfilePicture.png" />
     <Content Include="img\common\file-icons.png" />
     <Content Include="index.html" />
     <Content Include="jscode\index.js" />
