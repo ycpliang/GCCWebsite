@@ -7,3 +7,6 @@
 .floated_img {
     float: left;
 }
+.floated_img {
+    text-align: center;
+}
