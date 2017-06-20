@@ -165,6 +165,7 @@
     <Content Include="css\index2.css" />
     <Content Include="css\layouts\marketing-old-ie.css" />
     <Content Include="css\layouts\marketing.css" />
+    <Content Include="css\optimize.css" />
     <Content Include="css\purecss.min.css" />
     <Content Include="css\purecss\base-context-min.css" />
     <Content Include="css\purecss\base-context.css" />
@@ -213,6 +214,11 @@
     <Content Include="images\background1.jpg" />
     <Content Include="images\gcclogo.png" />
     <Content Include="images\gccwaterloologo.png" />
+    <Content Include="images\GCC_Icon_Colour.png" />
+    <Content Include="images\GCC_Logo_Black.png" />
+    <Content Include="images\GCC_Logo_Colour_HeavyText.png" />
+    <Content Include="images\GCC_Logo_Colour_LowText.png" />
+    <Content Include="images\GCC_Logo_White.png" />
     <Content Include="images\ProfilePicture.png" />
     <Content Include="img\common\file-icons.png" />
     <Content Include="index.html" />
