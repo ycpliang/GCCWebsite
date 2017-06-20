@@ -207,13 +207,13 @@
     <Content Include="css\purecss\pure.css" />
     <Content Include="css\purecss\tables-min.css" />
     <Content Include="css\purecss\tables.css" />
-    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="images\background.jpg" />
     <Content Include="images\background1.jpg" />
     <Content Include="images\gcclogo.png" />
     <Content Include="images\gccwaterloologo.png" />
+    <Content Include="favicon.ico" />
     <Content Include="images\GCC_Icon_Colour.png" />
     <Content Include="images\GCC_Logo_Black.png" />
     <Content Include="images\GCC_Logo_Colour_HeavyText.png" />
