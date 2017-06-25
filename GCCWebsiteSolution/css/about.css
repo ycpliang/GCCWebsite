@@ -1,3 +1,15 @@
 ﻿.padding-100{
     padding-top: 100px;
 }
+
+#logo-nav-size {
+    max-height: 35px;
+}
+
+#info-table{
+    color: white;
+}
+
+.description{
+    color: white;
+}
