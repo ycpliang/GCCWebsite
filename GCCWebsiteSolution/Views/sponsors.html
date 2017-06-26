@@ -85,16 +85,19 @@
                     text-align: center;
                 }
 
-        .sponsorsection {
-            float: left;
-        }
+            .sponsorsection {
+                float: left;
+            }
 
             .sponsorsection section {
                 width: 50%;
                 float: left;
             }
-        .sponsorsection {
-            margin-top: 100px;
+            .sponsorsection {
+                margin-top: 100px;
+            }
+        .email-input{
+            margin-top:10px;
         }
     </style>
 </head>
@@ -130,12 +133,11 @@
                                 </select>
                             </div>
 
-                            <input type="text" name="cf-order" id="contact-order" placeholder="5 digit order number (if applicable)" maxlength="5" pattern="[a-zA-Z0-9 ]+" value="" />
-                            <input type="text" name="cf-subject-other" id="contact-subject-other" placeholder="Subject" pattern="[a-zA-Z0-9 ]+" value="" />
-                            <input type="text" name="cf-name" placeholder="Name" pattern="[a-zA-Z0-9 ]+" value="" />
-                            <input type="email" name="cf-email" placeholder="Email" value="" />
-                            <textarea name="cf-message" placeholder="Comments"></textarea>
-                            <input type="submit" name="cf-submitted" value="Send">
+                            <input class="email-input" type="text" name="cf-subject-other" id="contact-subject-other" placeholder="Subject" pattern="[a-zA-Z0-9 ]+" value="" />
+                            <input class="email-input" type="text" name="cf-name" placeholder="Name" pattern="[a-zA-Z0-9 ]+" value="" />
+                            <input class="email-input" type="email" name="cf-email" placeholder="Email" value="" />
+                            <textarea class="email-input" name="cf-message" placeholder="Comments"></textarea>
+                            <input class="email-input" type="submit" name="cf-submitted" value="Send">
 
                         </form>
                     </section>
