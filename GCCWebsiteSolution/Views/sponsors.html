@@ -40,50 +40,72 @@
             transform: translatez(0);
         }
 
-        section #services h2 {
-            margin: 20px 0px 20px;
-            color: #000000;
-            font-size: 2.4em;
-            font-family: 'Raleway Dots', sans-serif;
-            text-transform: uppercase;
-            text-align: center;
-        }
-
-        section #services li {
-            width: 80px;
-            height: 100px;
-            display: inline-block;
-            margin: 20px;
-            list-style: none;
-        }
-
-            section #services li div {
-                width: 80px;
-                height: 80px;
-                color: #74d4b3;
-                font-size: 3.4em;
+            section #services h2 {
+                margin: 20px 0px 20px;
+                color: #000000;
+                font-size: 2.4em;
+                font-family: 'Raleway Dots', sans-serif;
+                text-transform: uppercase;
                 text-align: center;
-                line-height: 120px;
-                background-color: #3366FF;
-                transition: all 0.5s ease;
             }
 
-                section #services li div:hover {
-                    transform: rotate(360deg);
-                    border-radius: 100px;
+            section #services li {
+                width: 80px;
+                height: 100px;
+                display: inline-block;
+                margin: 20px;
+                list-style: none;
+            }
+
+                section #services li div {
+                    width: 80px;
+                    height: 80px;
+                    color: #74d4b3;
+                    font-size: 3.4em;
+                    text-align: center;
+                    line-height: 120px;
+                    background-color: #3366FF;
+                    transition: all 0.5s ease;
                 }
 
-            section #services li span {
-                width: 120px;
-                height: 20px;
-                display: block;
-                padding: 15px 0px;
-                color: #000000;
-                font-family: 'Advent Pro', sans-serif;
-                text-transform: uppercase;
-                font-size: 1.2em;
-                text-align: center;
+                    section #services li div:hover {
+                        transform: rotate(360deg);
+                        border-radius: 100px;
+                    }
+
+                section #services li span {
+                    width: 120px;
+                    height: 20px;
+                    display: block;
+                    padding: 15px 0px;
+                    color: #000000;
+                    font-family: 'Advent Pro', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1.2em;
+                    text-align: center;
+                }
+
+        .sponsorsection {
+            float: left;
+        }
+
+            .sponsorsection section {
+                width: 50%;
+                float: left;
             }
+
+        .sponsorsection {
+            margin-top: 100px;
+        }
+
+        .email-input {
+            margin-top: 10px;
+        }
+
+        .email.email-section {
+            margin-left: 500px;
+            position: relative;
+        }
     </style>
 </head>
 
@@ -105,6 +127,22 @@
     <div class="splash-container">
         <div class="content">
             <div class="pure-g">
+                <section class="sponsorsection">
+                    <section class="email-section">
+                        <p align="center">
+                            Please Let Us Know How We Can Serve You
+                        </p>
+                        <form action="mailto:someone@example.com" method="get" enctype="text/plain">
+                            <input type="text" name="name" class="email-input" placeholder="Name"><br>
+                            <input type="text" name="mail" class="email-input" placeholder="E-mail"><br>
+                            <textarea name="cf-message" class="email-input" placeholder="Comments" rows="20" cols="100"></textarea>
+                            <input class="email-input" type="submit" value="Send">
+                        </form>
+                    </section>
+
+                    <section></section>
+                </section>
+
 
             </div>
         </div>
@@ -112,10 +150,11 @@
 
     <div class="content-wrapper">
         <section>
+            <h2 align="center">Follow US</h2>
             <ul id='services'>
-                <h2>Follow US</h2>
+
                 <li>
-                    <a  href="https://www.facebook.com/gccwaterloo/"><div class='entypo-facebook'></div></a>
+                    <a href="https://www.facebook.com/gccwaterloo/"><div class='entypo-facebook'></div></a>
                     <span>Facebook</span>
                 </li>
                 <li>
