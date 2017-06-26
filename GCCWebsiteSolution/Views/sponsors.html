@@ -84,6 +84,14 @@
                 font-size: 1.2em;
                 text-align: center;
             }
+        .sponsor-section {
+            float: left;
+        }
+
+            .sponsor-section section {
+                width: 50%;
+                float: left;
+            }
     </style>
 </head>
 
@@ -105,6 +113,35 @@
     <div class="splash-container">
         <div class="content">
             <div class="pure-g">
+                <section class="sponsor-section">
+                    <section>
+                        <form action="" method="post" id="contact-form">
+                            <div class="select-style select-style-light">
+                                <select name="cf-subject" id="contact-subject">
+                                    <option value="Price Inquiry">Price Inquiry</option>
+                                    <option value="Avaliability">Avaliability</option>
+                                    <option value="more">More</option>
+                                    <option value="more">More</option>
+                                    <option value="more">More</option>
+                                </select>
+                            </div>
+
+                            <input type="text" name="cf-order" id="contact-order" placeholder="5 digit order number (if applicable)" maxlength="5" pattern="[a-zA-Z0-9 ]+" value="" />
+                            <input type="text" name="cf-subject-other" id="contact-subject-other" placeholder="Subject" pattern="[a-zA-Z0-9 ]+" value="" />
+                            <input type="text" name="cf-name" placeholder="Name" pattern="[a-zA-Z0-9 ]+" value="" />
+                            <input type="email" name="cf-email" placeholder="Email" value="" />
+                            <textarea name="cf-message" placeholder="Comments"></textarea>
+                            <input type="submit" name="cf-submitted" value="Send">
+
+                        </form>
+                    </section>
+
+                    <section>
+                        <div>Some content 2</div>
+                        <div>Some more 2</div>
+                    </section>
+                </section>  
+
 
             </div>
         </div>
