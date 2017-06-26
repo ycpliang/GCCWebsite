@@ -215,10 +215,13 @@
     <Content Include="images\gccwaterloologo.png" />
     <Content Include="favicon.ico" />
     <Content Include="images\GCC_Icon_Colour.png" />
+    <Content Include="images\gcc_logo_100px.png" />
+    <Content Include="images\gcc_logo_400px.png" />
     <Content Include="images\GCC_Logo_Black.png" />
     <Content Include="images\GCC_Logo_Colour_HeavyText.png" />
     <Content Include="images\GCC_Logo_Colour_LowText.png" />
     <Content Include="images\GCC_Logo_White.png" />
+    <Content Include="images\index_background.jpg" />
     <Content Include="images\ProfilePicture.png" />
     <Content Include="img\common\file-icons.png" />
     <Content Include="index.html" />

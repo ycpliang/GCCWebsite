@@ -1,11 +1,23 @@
 ﻿.gccglobal-section {
-    background-color:#2d3e50;
-    color:white;
+    background-color: #8B161C;
+    color: white;
 }
 
 .background-img {
-    width: 100%;
-    max-width: 100%;
-    background-image: url(/images/background.jpg);
+    background-size: 100% auto;
+    background-color: black;
+    opacity: 0.7;
+    background-image: url(/images/index_background.jpg);
 }
+
+#gcc-logo-center{
+
+}
+#logo-position {
+    position: relative;
+    top: -70px;
+}
+
+body{
+    background-color: black;
 }
