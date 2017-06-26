@@ -1,6 +1,8 @@
 ﻿.gccglobal-section {
     background-color: #8B161C;
     color: white;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .background-img {
@@ -11,7 +13,8 @@
 }
 
 #gcc-logo-center{
-
+    position:relative;
+    z-index: 2;
 }
 #logo-position {
     position: relative;
@@ -20,4 +23,19 @@
 
 body{
     background-color: black;
+}
+
+#logo-nav-size {
+    max-height: 40px;
+}
+
+
+.block-button-nav{
+    background-color: black;
+    position: relative;
+    top: -120px;
+}
+
+.button-style-padding {
+    margin-top: 100px;
 }
