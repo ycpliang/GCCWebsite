@@ -122,14 +122,15 @@
             <div class="pure-g">
                 <section class="sponsorsection">
                     <section>
-                        <form action="" method="post" id="contact-form">
-                          
-                            <input class="email-input" type="text" name="cf-subject-other" id="contact-subject-other" placeholder="Subject" pattern="[a-zA-Z0-9 ]+" value="" />
-                            <input class="email-input" type="text" name="cf-name" placeholder="Name" pattern="[a-zA-Z0-9 ]+" value="" />
-                            <input class="email-input" type="email" name="cf-email" placeholder="Email" value="" />
-                            <textarea class="email-input" name="cf-message" placeholder="Comments"></textarea>
-                            <input class="email-input" type="submit" name="cf-submitted" value="Send">
-
+                        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                            Name:<br>
+                            <input type="text" name="name" class="test"><br>
+                            E-mail:<br>
+                            <input type="text" name="mail" class="test"><br>
+                            Comment:<br>
+                            <input type="text" name="comment" class="test"><br><br>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
                         </form>
                     </section>
 
