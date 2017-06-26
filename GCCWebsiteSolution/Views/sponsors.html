@@ -25,6 +25,70 @@
     <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/global.css">
     <!--<![endif]-->
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Raleway+Dots);
+        @import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
+        @import url(http://weloveiconfonts.com/api/?family=entypo);
+        /* entypo */
+
+        [class*="entypo-"]:before {
+            font-family: 'entypo', sans-serif;
+        }
+
+        html, body {
+            margin: 0;
+        }
+
+        section #services {
+            text-align: center;
+            transform: translatez(0);
+        }
+
+            section #services h2 {
+                margin: 80px 0px 40px;
+                color: #000000;
+                font-size: 2.4em;
+                font-family: 'Raleway Dots', sans-serif;
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            section #services li {
+                width: 120px;
+                height: 140px;
+                display: inline-block;
+                margin: 20px;
+                list-style: none;
+            }
+
+                section #services li div {
+                    width: 120px;
+                    height: 120px;
+                    color: #74d4b3;
+                    font-size: 3.4em;
+                    text-align: center;
+                    line-height: 120px;
+                    background-color: #3366FF;
+                    transition: all 0.5s ease;
+                }
+
+                    section #services li div:hover {
+                        transform: rotate(360deg);
+                        border-radius: 100px;
+                    }
+
+                section #services li span {
+                    width: 120px;
+                    height: 20px;
+                    display: block;
+                    padding: 15px 0px;
+                    color: #000000;
+                    font-family: 'Advent Pro', sans-serif;
+                    text-transform: uppercase;
+                    font-size: 1.2em;
+                    text-align: center;
+                }
+    </style>
 </head>
 
 <body>
@@ -51,22 +115,30 @@
     </div>
 
     <div class="content-wrapper">
-        <div class="container">
-            <h2 class="content-head is-center">Follow Us</h2>
-            
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-            <div class='row'><i class='entypo-facebook'></i><i class='entypo-twitter'></i><i class='entypo-gplus'></i><i class='entypo-pinterest'></i><i class='entypo-dribbble'></i></div>
-           
-        </div>
+        <section>
+            <ul id='services'>
+                <h2>Follow US</h2>
+                <li>
+                    <div class='entypo-facebook'></div>
+                    <span>Facebook</span>
+                </li>
+                <li>
+                    <div class='entypo-twitter'>
+                    </div>
+                    <span>Twitter</span>
+                </li>
+                <li>
+                    <div class='entypo-gplus'></div>
+                    <span>Google Plus</span>
+                </li>
+                <li>
+                    <div class='entypo-linkedin'></div>
+                    <span>LinkedIn</span>
+                </li>
+            </ul>
+        </section>
+
+
         <div class="footer l-box is-center">
             Copyright &copy; GCCWaterloo 2017
         </div>
