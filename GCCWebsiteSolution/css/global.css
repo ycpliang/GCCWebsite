@@ -6,6 +6,12 @@
     max-height: 35px;
 }
 
+.gccglobal-section {
+    background-color: #8B161C;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 

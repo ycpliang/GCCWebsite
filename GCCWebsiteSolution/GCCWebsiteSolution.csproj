@@ -223,6 +223,7 @@
     <Content Include="images\GCC_Logo_White.png" />
     <Content Include="images\gcc_whiteGCC_500px.png" />
     <Content Include="images\index_background.jpg" />
+    <Content Include="images\index_background_grey.jpg" />
     <Content Include="images\ProfilePicture.png" />
     <Content Include="img\common\file-icons.png" />
     <Content Include="index.html" />
@@ -264,6 +265,7 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
+    <Folder Include="images\sponsors\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
