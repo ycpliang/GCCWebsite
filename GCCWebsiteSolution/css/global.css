@@ -6,6 +6,10 @@
     max-height: 35px;
 }
 
+#logo-nav-size {
+    max-height: 40px;
+}
+
 .gccglobal-section {
     background-color: #8B161C;
     color: white;
