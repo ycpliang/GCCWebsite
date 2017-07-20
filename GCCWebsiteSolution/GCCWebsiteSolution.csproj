@@ -163,6 +163,7 @@
     <Content Include="css\index.css" />
     <Content Include="css\about.css" />
     <Content Include="css\index2.css" />
+    <Content Include="css\layouts\blog.css" />
     <Content Include="css\layouts\marketing-old-ie.css" />
     <Content Include="css\layouts\marketing.css" />
     <Content Include="css\optimize.css" />
@@ -209,6 +210,7 @@
     <Content Include="css\purecss\tables.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\mttbackground.jpg" />
     <Content Include="images\background.jpg" />
     <Content Include="images\background1.jpg" />
     <Content Include="images\gcclogo.png" />
