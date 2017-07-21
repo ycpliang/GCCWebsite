@@ -1,15 +1,8 @@
-﻿.gccglobal-section {
-    background-color: #8B161C;
-    color: white;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.background-img {
+﻿.background-img {
     background-size: 100% auto;
     background-color: black;
-    opacity: 0.7;
-    background-image: url(/images/index_background.jpg);
+    /*opacity: 0.7;*/
+    background-image: url(/images/index_background_grey.jpg);
 }
 
 #gcc-logo-center{
@@ -21,13 +14,16 @@
     top: -70px;
 }
 
+#content-wrap-main {
+    background-color: #8B161C;
+}
+
+
 body{
     background-color: black;
 }
 
-#logo-nav-size {
-    max-height: 40px;
-}
+
 
 
 .block-button-nav{
@@ -37,5 +33,75 @@ body{
 }
 
 .button-style-padding {
-    margin-top: 100px;
+    margin-top: 70px;
 }
+
+.left-right-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+#logo-splash{
+   width: 400px;
+}
+
+.joingcc {
+    -moz-box-shadow: 3px 4px 3px 0px #8a2a21;
+    -webkit-box-shadow: 3px 4px 3px 0px #8a2a21;
+    box-shadow: 3px 4px 3px 0px #8a2a21;
+    background-color: #b81607;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #660b04;
+}
+
+    .joingcc:hover {
+        background-color: #f24437;
+    }
+
+    .joingcc:active {
+        position: relative;
+        top: 1px;
+    }
+
+
+.nav-button {
+    -moz-box-shadow: inset 0px 1px 0px 0px #000000;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #000000;
+    box-shadow: inset 0px 1px 0px 0px #000000;
+    background-color: #000000;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 17px 40px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+    .nav-button:hover {
+        background-color: #000000;
+    }
+
+    .nav-button:active {
+        position: relative;
+        top: 1px;
+    }

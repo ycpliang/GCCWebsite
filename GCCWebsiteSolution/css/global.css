@@ -6,11 +6,15 @@
     max-height: 35px;
 }
 
+#logo-nav-size {
+    max-height: 40px;
+}
 
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
-
-html, body {
-    background: #333 url("https://codepen.io/images/classy_fabric.png");
+.gccglobal-section {
+    background-color: #8B161C;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .slides {
@@ -128,3 +132,22 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: rgba(0, 0, 0, 0.8);
 }
+
+.contact-icon {
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+
+    a:hover,
+    a:focus {
+        color: #23527c;
+        text-decoration: underline;
+    }

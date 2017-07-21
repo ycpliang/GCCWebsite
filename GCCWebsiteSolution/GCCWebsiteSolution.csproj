@@ -163,6 +163,7 @@
     <Content Include="css\index.css" />
     <Content Include="css\about.css" />
     <Content Include="css\index2.css" />
+    <Content Include="css\layouts\blog.css" />
     <Content Include="css\layouts\marketing-old-ie.css" />
     <Content Include="css\layouts\marketing.css" />
     <Content Include="css\optimize.css" />
@@ -209,6 +210,7 @@
     <Content Include="css\purecss\tables.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\mttbackground.jpg" />
     <Content Include="images\background.jpg" />
     <Content Include="images\background1.jpg" />
     <Content Include="images\gcclogo.png" />
@@ -223,6 +225,7 @@
     <Content Include="images\GCC_Logo_White.png" />
     <Content Include="images\gcc_whiteGCC_500px.png" />
     <Content Include="images\index_background.jpg" />
+    <Content Include="images\index_background_grey.jpg" />
     <Content Include="images\ProfilePicture.png" />
     <Content Include="img\common\file-icons.png" />
     <Content Include="index.html" />
@@ -264,6 +267,7 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
+    <Folder Include="images\sponsors\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
