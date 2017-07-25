@@ -255,6 +255,7 @@
     <Content Include="images\index_background.jpg" />
     <Content Include="images\index_background_grey.jpg" />
     <Content Include="images\ProfilePicture.png" />
+    <Content Include="images\td_canada.jpg" />
     <Content Include="img\common\file-icons.png" />
     <Content Include="index.html" />
     <Content Include="jscode\index.js" />
