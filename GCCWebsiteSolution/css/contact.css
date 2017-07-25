@@ -17,6 +17,7 @@
 #pres-msg {
     z-index: 1;
     /*  margin-top: 400px; */
+    background-color: #131314;
 }
 
 #exec {
@@ -52,9 +53,10 @@ body{
     font-size: 300%;
 }
 
-#pres-msg-content{
+#pres-msg-content {
     border: solid;
     margin: 10px 10px 10px 10px;
+
 }
 
 .exec-img{
