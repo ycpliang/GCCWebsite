@@ -14,10 +14,78 @@
     z-index: 2;
 }
 
-#pres-msg{
+#pres-msg {
     z-index: 1;
+    /*  margin-top: 400px; */
+    background-color: #131314;
+}
+
+#exec {
+    /*  margin-top: 400px; */
 }
 
 body{
     background-color: white;
+}
+
+.background-img {
+    background-size: 100% auto;
+    height: 600px;
+    background-color: black;
+    /*opacity: 0.7;*/
+    background-image: url(/images/mttbackground.jpg);
+    background-position: 0px -300px;
+}
+
+#top-screen {
+    border: solid;
+    border-width: 0px 0px 20px 0px;
+    border-color: #8B161C;
+}
+
+#logo-splash{
+    padding-top: 100px;
+    height: 400px;
+}
+
+#ourteam{
+    color:white;
+    font-size: 300%;
+}
+
+#pres-msg-content {
+    border: solid;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.exec-img {
+    border-radius: 50%;
+    padding: 0px 40px 0px 40px;
+}
+
+#exec{
+    background-color: white;
+}
+
+.exec-name {
+    color: black;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 100%;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.exec-title {
+    text-transform: uppercase;
+    color: black;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+
+.img-size-1{
+    width:400px;
 }
