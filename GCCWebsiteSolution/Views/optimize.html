@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GCC Waterloo">
-    <title>GCC Waterloo</title>
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Meet the Team</title>
 
-    <link rel="stylesheet" href="/css/purecss.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
@@ -14,13 +14,12 @@
     <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
-
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-
     <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/layouts/blog.css">
     <link rel="stylesheet" href="/css/layouts/marketing.css">
     <link rel="stylesheet" href="/css/optimize.css">
     <link rel="stylesheet" href="/css/global.css">
@@ -33,211 +32,95 @@
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="/Views/index.html" class="pure-menu-link">Home</a></li>
                 <li class="pure-menu-item"><a href="/Views/about.html" class="pure-menu-link">About</a></li>
-                <li class="pure-menu-item pure-menu-selected"><a href="/Views/optimize.html" class="pure-menu-link">Optimize</a></li>
+                <li class="pure-menu-item  pure-menu-selected"><a href="/Views/optimize.html" class="pure-menu-link">Optimize</a></li>
                 <li class="pure-menu-item"><a href="/Views/contact.html" class="pure-menu-link">Contact</a></li>
                 <li class="pure-menu-item"><a href="/Views/sponsors.html" class="pure-menu-link">Sponsors</a></li>
             </ul>
         </div>
     </div>
-    <div class="splash-container">
-        <div class="content">
-            <h1 class="content-head">Optimize 2017</h1>
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <h1 class="content-head">Technology</h1>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <h2 class="content-head">Technology</h2>     
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <h1 class="content-head">Finance</h1>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <h2 class="content-head">Finance</h2>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <h1 class="content-head">Globalization</h1>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <h2 class="content-head">Globalization</h2>
-                </div>
+
+    <div id="layout" class="pure-g">
+        <div id="top-screen" class="pure-u-md-1-1 background-img">
+            <div id="slogan-content" class="is-center">
+                <h1 id="optimize-slogan" class="is-center">OPTIMIZE</h1>
+                <h2 id="subheading-slogan">
+                    TECHNOLOGY 
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    FINANCE
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    GLOBALIZATION
+                </h2>
             </div>
         </div>
-    </div>
-    <div class="content-wrapper">
-        <div class="content">
-            <div class="pure-g">
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                    <h1 class="content-head">What is Optimize</h1>
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">     
-                    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                        <h2 class="content-head">Optimize 2016</h2>
-                        <ul class="slides">
-                            <input type="radio" name="radio-btn" id="img-1-2016" checked />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8072/8346734966_f9cd7d0941_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-6-2016" class="prev">&#x2039;</label>
-                                    <label for="img-2-2016" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-2-2016" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-1-2016" class="prev">&#x2039;</label>
-                                    <label for="img-3-2016" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-3-2016" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8068/8250438572_d1a5917072_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-2-2016" class="prev">&#x2039;</label>
-                                    <label for="img-4-2016" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-4-2016" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8061/8237246833_54d8fa37f0_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-3-2016" class="prev">&#x2039;</label>
-                                    <label for="img-5-2016" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-5-2016" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-4-2016" class="prev">&#x2039;</label>
-                                    <label for="img-6-2016" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-6-2016" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8195/8098750703_797e102da2_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-5-2016" class="prev">&#x2039;</label>
-                                    <label for="img-1-2016" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <li class="nav-dots">
-                                <label for="img-1-2016" class="nav-dot" id="img-dot-1-2016"></label>
-                                <label for="img-2-2016" class="nav-dot" id="img-dot-2-2016"></label>
-                                <label for="img-3-2016" class="nav-dot" id="img-dot-3-2016"></label>
-                                <label for="img-4-2016" class="nav-dot" id="img-dot-4-2016"></label>
-                                <label for="img-5-2016" class="nav-dot" id="img-dot-5-2016"></label>
-                                <label for="img-6-2016" class="nav-dot" id="img-dot-6-2016"></label>
-                            </li>
-                        </ul>
- 
-                    </div>
-                    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                        <h2 class="content-head">Optimize 2015</h2>
-                        <ul class="slides">
-                            <input type="radio" name="radio-btn" id="img-1" checked />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8072/8346734966_f9cd7d0941_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-6" class="prev">&#x2039;</label>
-                                    <label for="img-2" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-2" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-1" class="prev">&#x2039;</label>
-                                    <label for="img-3" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-3" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8068/8250438572_d1a5917072_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-2" class="prev">&#x2039;</label>
-                                    <label for="img-4" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-4" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8061/8237246833_54d8fa37f0_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-3" class="prev">&#x2039;</label>
-                                    <label for="img-5" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-5" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-4" class="prev">&#x2039;</label>
-                                    <label for="img-6" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <input type="radio" name="radio-btn" id="img-6" />
-                            <li class="slide-container">
-                                <div class="slide">
-                                    <img src="http://farm9.staticflickr.com/8195/8098750703_797e102da2_z.jpg" />
-                                </div>
-                                <div class="nav">
-                                    <label for="img-5" class="prev">&#x2039;</label>
-                                    <label for="img-1" class="next">&#x203a;</label>
-                                </div>
-                            </li>
-
-                            <li class="nav-dots">
-                                <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-                                <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-                                <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-                                <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-                                <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-                                <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
+        <div class="content-wrapper" id="content-wrap-main">
+            <div class="content optimize-description-wrapper">
+                <h3 class="is-center optimize-description">OPTIMIZE is an annual case competition where 20 teams compete<br/>
+                to build optimal case solutions to be
+                presented to a panel of judges. <br/>
+                This year's prize pool consists of $3000 and other gift prizes. <br />
+                OPTIMIZE 2017 will take place in November.</h3>
             </div>
-    </div>
-        <div class="gccglobal-section is-center">
-            <div class="footer l-box is-center">
-                GCC Waterloo Chapter
+
+            <div class="content value-wrapper">
+                <div class="content-head is-center">Our Values</div>
+                    <div class="pure-g">
+                        <div class="pure-u-1 pure-u-md-1-3 is-center">
+                            <img src="/images/optimize/lightbuld.png" alt="lightbuld" class="value-rep">
+                            <h2 class="post-title">Business Strategy</h2>
+                            <p>Encouraging delegates to view decisions from multiple angles and present rational solutions to real-world problems</p>
+                        </div>
+                        <div class="pure-u-1 pure-u-md-1-3 is-center">
+                            <img src="/images/optimize/handshake.png" alt="handshake" class="value-rep">
+                            <h2 class="post-title">Professional Development</h2>
+                            <p>Providing ample opportunities for delegates to advance their professional skills and careers though a variety of workshops</p>
+                        </div>
+                        <div class="pure-u-1 pure-u-md-1-3 is-center">
+                            <img src="/images/optimize/globe.png" alt="globe" class="value-rep">
+                            <h2 class="post-title">Global Perspectives</h2>
+                            <p>Connecting the diverse community across the world through the application of their skills in a global business context</p>
+                        </div>
+                     </div>
+            </div>
+
+            <div class="content breaker">
+            </div>
+
+            <div class="content sponsor-reason-wrapper">
+                <div class="content-head is-center">Why Sponsor OPTIMIZE &#63;</div>
+                <p id="sponsor-para" class="content is-center">OPTIMIZE is hosted by GCC Waterloo, a chapter of GCC Global boasted over 10,000 members within their network. As the largest chapter of GCC Global,
+                GCC Waterloo has experienced an exceptional growth rate over the past year of 15%, with an overall growth rate of 67% since 2012. <br /><br />
+                Beyond the OPTIMIZE workshops, GCC Waterloo offers professional development events that are open for all students but has been especially popular with students
+                in Accounting and Financial Management, Financial Analysis and Risk Management, and Mathematics/Chartered Professional Accounting programs.</p>
+            </div>
+
+            <div class="content optimize-2016-wrapper">
+                <div class="content-head is-center">Optimize 2016</div>
+                <p id="sponsor-para" class="content is-center">
+                    OPTIMIZE is hosted by GCC Waterloo, a chapter of GCC Global boasted over 10,000 members within their network. As the largest chapter of GCC Global,
+                    GCC Waterloo has experienced an exceptional growth rate over the past year of 15%, with an overall growth rate of 67% since 2012. <br /><br />
+                    Beyond the OPTIMIZE workshops, GCC Waterloo offers professional development events that are open for all students but has been especially popular with students
+                    in Accounting and Financial Management, Financial Analysis and Risk Management, and Mathematics/Chartered Professional Accounting programs.
+                </p>
+            </div>
+
+            <div class="content optimize-2017-wrapper">
+                <div class="content-head is-center">Optimize 2017</div>
+            </div>
+
+
+            <div id="contact-footer" class="footer">
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1 is-center">
+                        <a href="https://www.facebook.com/gccwaterloo/" class="fa fa-facebook contact-icon" aria-hidden="true"></a>
+                        <a href="https://www.facebook.com/gccwaterloo/" class="fa fa-linkedin contact-icon" aria-hidden="true"></a>
+                        <a href="https://www.facebook.com/gccwaterloo/" class="fa fa-twitter contact-icon" aria-hidden="true"></a>
+                        <a href="https://www.facebook.com/gccwaterloo/" class="fa fa-envelope contact-icon" aria-hidden="true"></a>
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-1 l-box is-center">
+                        GCC Waterloo Chapter
+                    </div>
+                </div>
+
             </div>
         </div>
 

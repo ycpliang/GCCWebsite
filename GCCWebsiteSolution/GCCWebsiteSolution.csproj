@@ -210,6 +210,10 @@
     <Content Include="css\purecss\tables.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\optimize\globe.png" />
+    <Content Include="images\optimize\lightbuld.png" />
+    <Content Include="images\optimize\handshake.png" />
+    <Content Include="images\optimize_background.jpg" />
     <Content Include="images\gccmembers\alice-crop-1.jpg" />
     <Content Include="images\gccmembers\alicia-crop-1.jpg" />
     <Content Include="images\gccmembers\bohan-crop-1.jpg" />
